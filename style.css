@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+  }
+  .card {
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .logo {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  .logo {
+    max-width: 330px;
+    margin: 0 auto 30px; /* Center the logo horizontally and add margin bottom */
+  }
+  @media screen and (max-width: 600px) {
+    .card {
+      padding: 70px;
+    }
+    .logo {
+      max-width: 250px;
+    }
+    h1 {
+      font-size: 20px;
+    }
+    p {
+      font-size: 14px;
+    }
+    .btn {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  }
